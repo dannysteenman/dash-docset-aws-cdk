@@ -13,4 +13,7 @@ project = PythonProject(
     ],
 )
 
+project.gitignore.exclude("aws-cdk-ts.docset/")
+project.gitignore.exclude("tmp/")
+
 project.synth()
